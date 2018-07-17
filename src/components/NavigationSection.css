@@ -1,0 +1,45 @@
+#NavigationSection {
+    width: 400px;
+    border: solid #d5d5d5 1px;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-left: 1px;
+}
+
+.indicator-light {
+    width: 15px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.delete-message-icon {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.new-email-image {
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.message-container {
+    border: solid 1px #d5d5d5;
+    position: relative;
+    cursor: pointer;
+}
+.read {
+    color: #afafaf;
+}
+
+
+.message-container > h1 {
+    font-size: 10px;
+    margin:2px 25px 5px 5px;
+}
+.message-container > p {
+    font-size: 12px;
+    margin: 0px 0px 2px 5px;
+}
