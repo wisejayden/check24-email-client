@@ -10,5 +10,5 @@ An Email Client built with React, bundled with Parcel..
 ## Run Locally
 * `git clone repo`
 * `npm install`
-* `npm start`
+* `npm run dev`
 * Visit http://localhost:3000

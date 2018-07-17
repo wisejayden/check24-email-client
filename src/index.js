@@ -1,15 +1,10 @@
-import React from 'react'
-import { render } from 'react-dom'
-import UserContactForm from './pages/UserContactForm'
-import { injectGlobal } from 'styled-components'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from '/components/App';
 
-injectGlobal`
-  body {
-    font-family: sans-serif;
-  }
-`
 
-const renderApp = AppComponent =>
-  render(<AppComponent />, document.getElementById('react-root'))
 
-renderApp(UserContactForm)
+ReactDOM.render(
+    <App />,
+  document.getElementById('react-root')
+);
